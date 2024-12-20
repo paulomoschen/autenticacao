@@ -1,4 +1,5 @@
-- Projeto de Tópicos Especiais Em Ciência Da Computação
+- Projeto de Tópicos Especiais Em Ciência Da Computação:
+  
      Este projeto consiste em você poder marcar a séries vista episódio por episódio
    e também os filmes, com a chegada de várias plataforma de streams, algumas séries
    mudam de um para o outro, e você acaba perdendo o progresso da série, sendo assim
