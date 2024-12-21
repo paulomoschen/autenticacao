@@ -11,4 +11,10 @@
   - A segunda para gerenciar a manipulação de dados das séries;
   - E a última para gerenciar a manipulação de dados dos filmes;
  
-    Todos os micro-serviços feito com SpringBoot, para salvar os dados é usado o banco H2;
+  Todos os micro-serviços feito com SpringBoot, para salvar os dados é usado o banco H2;
+
+  - O projeto pode ser clonado pelo link a seguir: https://github.com/rodrigofries01/autenticacao.git;
+  - Necessario a versão 17 do Java;
+  - São 3 projetos separados, e todos devem ser rodados separadamente;
+  - Tambem necessario alguma ferramenta de requisição para insersão de dados;
+  - e conexão com o banco de dados H2;
