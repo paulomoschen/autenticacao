@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7450c30-7b6f-4a81-8a27-55f4eaa4a5a1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/dtos/SerieDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/dtos/SerieDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/services/SerieFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/services/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/autenticacao/src/main/java/br/edu/utfpr/paulo/autenticacao/services/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autenticacao/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/autenticacao/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciamento-filme/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciamento-filme/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciamento-filme/src/main/java/br/com/rodrigo/gerenciamento_filme/controllers/FilmeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciamento-filme/src/main/java/br/com/rodrigo/gerenciamento_filme/controllers/FilmeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciamento-filme/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciamento-filme/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciamento-series/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciamento-series/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciamento-series/src/main/java/br/com/rodrigo/gerenciamento_filme/controllers/SerieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciamento-series/src/main/java/br/com/rodrigo/gerenciamento_filme/controllers/SerieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gerenciamento-series/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gerenciamento-series/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/AutenticacaoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/config/JwtInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/controller/UsuarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/dtos/SerieDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/model/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/model/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/repositories/UsuarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/services/SerieFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/edu/utfpr/paulo/autenticacao/services/UsuarioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/edu/utfpr/paulo/autenticacao/AutenticacaoApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2spJKKrLnFl0Uvjc9zWic7A9bDD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mosch/OneDrive/Documentos/GitHub/autenticacao/autenticacao",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7450c30-7b6f-4a81-8a27-55f4eaa4a5a1" name="Changes" comment="" />
+      <created>1739146521731</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739146521731</updated>
+      <workItem from="1739146522816" duration="150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

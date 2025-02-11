@@ -10,12 +10,12 @@ import br.edu.utfpr.paulo.autenticacao.model.Usuario;
 import br.edu.utfpr.paulo.autenticacao.repositories.UsuarioRepository;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.security.Keys;
 
 @Service
 public class UsuarioService {
     @Autowired
     private UsuarioRepository usuarioRepository;
-    private SerieFeignClient serieFeignClient;
 
     public Usuario createUsuario(Usuario usuario) {
         validaUsuario(usuario);
@@ -52,7 +52,7 @@ public class UsuarioService {
                 .claim("nome", usuario.getNome())
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + jwtExpiration))
-                .signWith(SignatureAlgorithm.HS512, jwtSecret)
+                .signWith(SignatureAlgorithm.HS256, jwtSecret)
                 .compact();
     }
 }

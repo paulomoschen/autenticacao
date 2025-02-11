@@ -30,20 +30,6 @@ public class FilmeController {
         }
     }
 
-//    @PutMapping(path = "/{titulo}")
-//    public ResponseEntity<String> update(@PathVariable(name="titulo") String titulo, @RequestBody Filme filme) {
-//        Filme filmeDB = this.filmeRepository.findByTitulo(titulo).orElse(null);
-//        if (filmeDB != null){
-//            filmeDB.setTitulo(filme.getTitulo());
-//            filmeDB.setGenero(filme.getGenero());
-//            filmeDB.setAnoLancamento(filme.getAnoLancamento());
-//            filmeDB.setProdutora(filme.getProdutora());
-//            this.filmeRepository.save(filmeDB);
-//            return ResponseEntity.ok("Filme atualizado com sucesso.");
-//        }
-//        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Filme não encontrado.");
-//    }
-
 
     @PutMapping(path = "/{id}")
     public ResponseEntity<String> update(@PathVariable(name="id") Long idFilme, @RequestBody Filme filme) {

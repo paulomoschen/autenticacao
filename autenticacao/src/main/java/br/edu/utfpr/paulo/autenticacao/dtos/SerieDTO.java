@@ -1,10 +1,5 @@
 package br.edu.utfpr.paulo.autenticacao.dtos;
 
-public record SerieDTO (Long id, 
-String description, 
-Integer quantity, 
-Double price, 
-String category
-) {
-    
+public record SerieDTO(Long id, String titulo, int temporada, int episodio, int anoLancamento, String genero, String produtora) {
+
 }

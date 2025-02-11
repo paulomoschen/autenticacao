@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import br.edu.utfpr.paulo.autenticacao.model.LoginRequest;
 import br.edu.utfpr.paulo.autenticacao.model.Usuario;
 import br.edu.utfpr.paulo.autenticacao.services.UsuarioService;
 
@@ -26,5 +27,11 @@ public class UsuarioController {
         } else {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);
         }
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<String> login(@RequestBody LoginRequest loginRequest) {
+        String token = usuarioService.login(loginRequest.getEmail(), loginRequest.getSenha());
+        return ResponseEntity.ok(token);
     }
 }
