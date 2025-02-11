@@ -25,14 +25,8 @@ public class UsuarioService {
     private void validaUsuario(Usuario usuario) {
         if (usuarioRepository.findByEmail(usuario.getEmail()).isPresent()) {
             throw new IllegalArgumentException("Email já está em uso.");
-        }   
+        }
     }
-
-    @Value("${jwt.secret}")
-    private String jwtSecret;
-    
-    @Value("${jwt.expiration}")
-    private Long jwtExpiration;
 
     public String login(String email, String senha) {
         Usuario usuario = usuarioRepository.findByEmail(email)
@@ -46,13 +40,6 @@ public class UsuarioService {
     }
 
     private String gerarToken(Usuario usuario) {
-        return Jwts.builder()
-                .setSubject(usuario.getEmail())
-                .claim("id", usuario.getId())
-                .claim("nome", usuario.getNome())
-                .setIssuedAt(new Date())
-                .setExpiration(new Date(System.currentTimeMillis() + jwtExpiration))
-                .signWith(SignatureAlgorithm.HS256, jwtSecret)
-                .compact();
+        return "";
     }
 }
