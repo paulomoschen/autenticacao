@@ -2,6 +2,7 @@ package br.com.rodrigo.gerenciamento_filme.controllers;
 
 import br.com.rodrigo.gerenciamento_filme.model.Filme;
 import br.com.rodrigo.gerenciamento_filme.repositories.FilmeRepository;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -21,7 +22,7 @@ public class FilmeController {
     public ResponseEntity<List<Filme>> getFilmes() { return ResponseEntity.ok(filmeRepository.findAll()); }
 
     @PostMapping
-    public ResponseEntity<Filme> addOne(@RequestBody Filme filme) {
+    public ResponseEntity<Filme> addOne(@Valid @RequestBody Filme filme) {
         if (filme.getTitulo() == null){
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(filme);
         } else {

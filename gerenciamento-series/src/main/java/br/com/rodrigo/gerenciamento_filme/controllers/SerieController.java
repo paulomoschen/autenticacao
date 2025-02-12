@@ -2,6 +2,7 @@ package br.com.rodrigo.gerenciamento_filme.controllers;
 
 import br.com.rodrigo.gerenciamento_filme.model.Serie;
 import br.com.rodrigo.gerenciamento_filme.repositories.SerieRepository;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +23,7 @@ public class SerieController {
     public ResponseEntity<List<Serie>> getSeries() { return ResponseEntity.ok(serieRepository.findAll()); }
 
     @PostMapping
-    public ResponseEntity<Serie> addOne(@RequestBody Serie serie) {
+    public ResponseEntity<Serie> addOne(@Valid @RequestBody Serie serie) {
         if (serie.getTitulo() == null){
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(serie);
         } else {
@@ -30,7 +31,6 @@ public class SerieController {
             return ResponseEntity.status(HttpStatus.CREATED).body(serie);
         }
     }
-
 
     @PutMapping(path = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> update(@PathVariable(name="id") Long idSerie, @RequestBody Serie serie) {
